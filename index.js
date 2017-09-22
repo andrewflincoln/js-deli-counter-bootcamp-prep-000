@@ -25,7 +25,7 @@ function currentLine(line) {
   }
 
   else {
-    for (var d = 1; d <= line.length; d++) {
+    for (var d = 1; d < line.length; d++) {
       theLine = theLine + `, ${d + 1}. ${line[d]}`
     }
     return theLine;
